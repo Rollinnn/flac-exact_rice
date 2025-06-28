@@ -76,7 +76,7 @@
  * encoded with) in this encoder is very good, almost always yielding
  * compression within 0.1% of exact calculation.
  */
-#undef EXACT_RICE_BITS_CALCULATION
+#define EXACT_RICE_BITS_CALCULATION
 /* Rice parameter searching is off by default.  The simple (and fast)
  * parameter estimation in this encoder is very good, almost always
  * yielding compression within 0.1% of the optimal parameters.
